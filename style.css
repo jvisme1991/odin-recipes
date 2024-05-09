@@ -23,7 +23,92 @@ p, h1, h2, h3 {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1rem;
-  height: 120vh;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  max-width: 70%;
+  margin-inline: auto;
+}
+
+.hero img {
+  max-width: 60%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+#button {
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 3rem;
+  font-size: 1.2em;
+  background-color: orangered;
+  color: black;
+}
+
+header  { 
+  padding: 3rem;
+}
+
+header a {
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 600; 
+}
+
+.home__main {
+  margin-inline: auto;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.main__section {
+  background-color: rgb(213, 213, 213);
+  padding: 5rem;
+  border-radius: 1rem;
+  box-shadow: 2px 2px 8px black;  
+  max-width: 90%;
+
+}
+
+h1 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.ul__main {
+  list-style: none;
+}
+
+a {
+  text-decoration-line: none;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+ul li a:hover {
+  transform: scale(1.5);
+  text-shadow: 1px 1px 1px rgb(0, 0, 171);
+  font-size: 1.55em;
+}
+
+li:not(:first-child) {
+  margin-top: 2rem;
+}
+
+li span {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin-bottom: 1rem;
 }
 
 .container {
@@ -37,8 +122,8 @@ body {
 }
  
 .img__description {
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 1.4em;
+  font-weight: 500;
  }
 
 .recipe__description {
