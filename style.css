@@ -92,6 +92,15 @@ a {
   font-size: 1.5em;
 }
 
+.recipe__description .no-list-style li {
+  list-style-type: none;
+}
+
+h4 {
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
+}
+
 ul li a:hover {
   transform: scale(1.5);
   text-shadow: 1px 1px 1px rgb(0, 0, 171);
@@ -121,9 +130,10 @@ h3 {
   margin-bottom: 2rem;
 }
  
-.img__description {
-  font-size: 1.4em;
+.hero p {
+  font-size: 1.2em;
   font-weight: 500;
+  max-width: 49ch;
  }
 
 .recipe__description {
